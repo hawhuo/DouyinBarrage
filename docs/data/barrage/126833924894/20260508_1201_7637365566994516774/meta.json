@@ -1,0 +1,149 @@
+{
+  "session_id": "20260508_1201_7637365566994516774",
+  "live_id": "126833924894",
+  "available_types": [
+    "chat",
+    "control",
+    "gift",
+    "like",
+    "social",
+    "stats"
+  ],
+  "stats": {
+    "chat": 11914,
+    "control": 1,
+    "gift": 8862,
+    "like": 4427,
+    "social": 650,
+    "stats": 2327
+  },
+  "total": 28181,
+  "rankings": {
+    "chat": {
+      "top_users": [
+        {
+          "name": "抖音小肋手",
+          "count": 176
+        },
+        {
+          "name": "BWRZ（记录美好）",
+          "count": 122
+        },
+        {
+          "name": "贝塔β",
+          "count": 106
+        },
+        {
+          "name": "忙里偷闲⁵¹⁰⁷⁴",
+          "count": 102
+        },
+        {
+          "name": "吃串串的喵",
+          "count": 74
+        },
+        {
+          "name": "楠De小雨天气💦",
+          "count": 73
+        }
+      ],
+      "top_at": [
+        {
+          "name": "知遇👣",
+          "count": 28
+        },
+        {
+          "name": "ら孤痞",
+          "count": 24
+        },
+        {
+          "name": "九月是只喵",
+          "count": 23
+        },
+        {
+          "name": "YgTietnssgmexsn?",
+          "count": 18
+        },
+        {
+          "name": "抖音小肋手",
+          "count": 13
+        },
+        {
+          "name": "汉、歼的审判者",
+          "count": 12
+        }
+      ]
+    },
+    "gift": {
+      "top_users": [
+        {
+          "name": "喵喵酱🐱",
+          "diamond": 35788,
+          "max_gift": "小心心",
+          "max_gift_diamond": 266
+        },
+        {
+          "name": "Kun°",
+          "diamond": 13140,
+          "max_gift": "云中秘境",
+          "max_gift_diamond": 13140
+        },
+        {
+          "name": "张君雅的啤酒瓶",
+          "diamond": 10075,
+          "max_gift": "为你举牌",
+          "max_gift_diamond": 1194
+        },
+        {
+          "name": "温棪",
+          "diamond": 3500,
+          "max_gift": "星萤同游",
+          "max_gift_diamond": 3500
+        },
+        {
+          "name": "杰少",
+          "diamond": 2920,
+          "max_gift": "跑车",
+          "max_gift_diamond": 1200
+        },
+        {
+          "name": "爱哭的鱼…",
+          "diamond": 1995,
+          "max_gift": "为你举牌",
+          "max_gift_diamond": 597
+        }
+      ],
+      "total_diamond": 102396
+    },
+    "like": {
+      "top_users": [
+        {
+          "name": "暖心❤️向阳",
+          "count": 4381
+        },
+        {
+          "name": "抖音小肋手",
+          "count": 3190
+        },
+        {
+          "name": "Summer",
+          "count": 3006
+        },
+        {
+          "name": "🎀 T·Sept.⁰¹ Vir☁️",
+          "count": 2403
+        },
+        {
+          "name": "天空无云",
+          "count": 2106
+        },
+        {
+          "name": "苍海一声笑",
+          "count": 1992
+        }
+      ],
+      "total_likes": 85594
+    }
+  },
+  "gift_diamond": 102459,
+  "total_pv": 343000
+}
