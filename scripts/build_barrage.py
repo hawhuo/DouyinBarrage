@@ -286,20 +286,40 @@ class BarrageBuilder:
         return items
 
     def compute_gift_diamond(self, session_dir):
-        """计算礼物总抖币。人气票取每个用户最大值，其他礼物累加。"""
+        """计算礼物总抖币。按 gift_count 识别连送，处理乱序。"""
         items = self.read_jsonl(os.path.join(session_dir, 'gift.jsonl'))
-        user_renqi = defaultdict(int)
-        total = 0
+        if not items:
+            return 0
+
+        # 按用户分组
+        user_items = defaultdict(list)
         for item in items:
-            gift_name = item.get('gift_name', '')
-            d = int(item.get('diamond_total', 0))
-            user_id = item.get('user_id', '')
-            if gift_name == '人气票':
-                if d > user_renqi[user_id]:
-                    user_renqi[user_id] = d
-            else:
-                total += d
-        total += sum(user_renqi.values())
+            user_items[item.get('user_id', '')].append(item)
+
+        total = 0
+        for uid, uitems in user_items.items():
+            # 按时间排序
+            uitems.sort(key=lambda x: x.get('time', ''))
+            prev_count = 0
+            current_max = 0
+            for item in uitems:
+                gc = int(item.get('gift_count', 0))
+                d = int(item.get('diamond_total', 0))
+                if gc == 1:
+                    if prev_count > 1:
+                        # gc 重置，新连送开始
+                        total += current_max
+                        current_max = d
+                    else:
+                        # 独立送
+                        total += current_max
+                        current_max = d
+                else:
+                    # gc > 1，同一次连送，取最大值
+                    current_max = max(current_max, d)
+                prev_count = gc
+            # 最后一次连送
+            total += current_max
         return total
 
     def compute_total_pv(self, session_dir):
@@ -346,18 +366,37 @@ class BarrageBuilder:
         if 'gift' in available_types:
             items = self.read_jsonl(os.path.join(session_dir, 'gift.jsonl'))
             if items:
-                user_gift_data = defaultdict(lambda: {'diamond': 0, 'max_gift': None})
+                # 按用户分组
+                user_gift_items = defaultdict(list)
                 for item in items:
-                    name = item.get('user_name', '')
-                    gift_name = item.get('gift_name', '')
-                    d = int(item.get('diamond_total', 0))
-                    if gift_name == '人气票':
-                        if d > user_gift_data[name]['diamond']:
-                            user_gift_data[name]['diamond'] = d
-                    else:
-                        user_gift_data[name]['diamond'] += d
-                    if user_gift_data[name]['max_gift'] is None or d > int(user_gift_data[name]['max_gift'].get('diamond_total', 0)):
-                        user_gift_data[name]['max_gift'] = item
+                    user_gift_items[item.get('user_name', '')].append(item)
+
+                user_gift_data = {}
+                for name, uitems in user_gift_items.items():
+                    # 按时间排序
+                    uitems.sort(key=lambda x: x.get('time', ''))
+                    prev_count = 0
+                    current_max = 0
+                    max_gift_item = None
+                    user_total = 0
+                    for item in uitems:
+                        gc = int(item.get('gift_count', 0))
+                        d = int(item.get('diamond_total', 0))
+                        if gc == 1:
+                            if prev_count > 1:
+                                user_total += current_max
+                                current_max = d
+                            else:
+                                user_total += current_max
+                                current_max = d
+                        else:
+                            current_max = max(current_max, d)
+                        if max_gift_item is None or d > int(max_gift_item.get('diamond_total', 0)):
+                            max_gift_item = item
+                        prev_count = gc
+                    user_total += current_max
+                    user_gift_data[name] = {'diamond': user_total, 'max_gift': max_gift_item}
+
                 top_gift = sorted(user_gift_data.items(), key=lambda x: x[1]['diamond'], reverse=True)[:6]
                 top_users = []
                 for n, data in top_gift:
