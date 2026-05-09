@@ -1,4 +1,4 @@
-# douyin-barrage
+# DouyinBarrage
 
 > 抖音直播间弹幕数据实时采集器 — WebSocket 长连接，13 种消息类型，CSV/JSONL 双格式输出。
 
