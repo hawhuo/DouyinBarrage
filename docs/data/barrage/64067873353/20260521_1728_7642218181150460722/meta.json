@@ -1,0 +1,58 @@
+{
+  "session_id": "20260521_1728_7642218181150460722",
+  "live_id": "64067873353",
+  "available_types": [
+    "chat",
+    "gift",
+    "stats"
+  ],
+  "stats": {
+    "chat": 33,
+    "gift": 1,
+    "stats": 54
+  },
+  "total": 88,
+  "rankings": {
+    "chat": {
+      "top_users": [
+        {
+          "name": "斌",
+          "count": 11
+        },
+        {
+          "name": "用户8996478459061",
+          "count": 10
+        },
+        {
+          "name": "dou9096678",
+          "count": 3
+        },
+        {
+          "name": "从心所欲",
+          "count": 3
+        },
+        {
+          "name": "宛若花开荼蘼",
+          "count": 3
+        },
+        {
+          "name": "龙腾鸣威 2023",
+          "count": 2
+        }
+      ]
+    },
+    "gift": {
+      "top_users": [
+        {
+          "name": "dou9096678",
+          "diamond": 99,
+          "max_gift": "亲吻",
+          "max_gift_diamond": 99
+        }
+      ],
+      "total_diamond": 99
+    }
+  },
+  "gift_diamond": 99,
+  "total_pv": 5501
+}

@@ -3,13 +3,13 @@
     {
       "live_id": "64067873353",
       "anchor_name": "林昔",
-      "session_count": 1,
-      "latest_session": "20260521_1617_7642218181150460722",
+      "session_count": 2,
+      "latest_session": "20260521_1728_7642218181150460722",
       "total_stats": {
-        "chat": 24,
-        "gift": 29,
+        "chat": 57,
+        "gift": 30,
         "like": 9,
-        "stats": 90
+        "stats": 144
       }
     },
     {
@@ -79,5 +79,5 @@
       "icon": "😀"
     }
   },
-  "generated_at": "2026-05-21 17:15:58"
+  "generated_at": "2026-05-21 20:44:52"
 }
