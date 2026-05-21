@@ -1,0 +1,71 @@
+{
+  "live_rooms": [
+    {
+      "live_id": "866707045916",
+      "anchor_name": "柚柚cc",
+      "session_count": 1,
+      "latest_session": "20260521_1539_7642191966567484179",
+      "total_stats": {
+        "chat": 111,
+        "gift": 155,
+        "like": 156,
+        "stats": 46
+      }
+    }
+  ],
+  "type_config": {
+    "chat": {
+      "label": "弹幕",
+      "icon": ""
+    },
+    "gift": {
+      "label": "礼物",
+      "icon": "🎁"
+    },
+    "lucky_bag": {
+      "label": "福袋",
+      "icon": "🎯"
+    },
+    "member": {
+      "label": "进场",
+      "icon": "👤"
+    },
+    "social": {
+      "label": "关注",
+      "icon": "❤️"
+    },
+    "like": {
+      "label": "点赞",
+      "icon": "👍"
+    },
+    "fansclub": {
+      "label": "粉丝团",
+      "icon": "🏆"
+    },
+    "stats": {
+      "label": "统计",
+      "icon": "📊"
+    },
+    "roomstats": {
+      "label": "房间统计",
+      "icon": "📊"
+    },
+    "room": {
+      "label": "房间",
+      "icon": "🏠"
+    },
+    "rank": {
+      "label": "排行",
+      "icon": "🏅"
+    },
+    "control": {
+      "label": "控制",
+      "icon": "⚙️"
+    },
+    "emoji": {
+      "label": "表情",
+      "icon": "😀"
+    }
+  },
+  "generated_at": "2026-05-21 15:45:16"
+}

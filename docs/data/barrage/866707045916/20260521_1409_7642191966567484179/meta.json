@@ -1,0 +1,147 @@
+{
+  "session_id": "20260521_1409_7642191966567484179",
+  "live_id": "866707045916",
+  "available_types": [
+    "chat",
+    "gift",
+    "like",
+    "social",
+    "stats"
+  ],
+  "stats": {
+    "chat": 857,
+    "gift": 272,
+    "like": 656,
+    "social": 6,
+    "stats": 247
+  },
+  "total": 2038,
+  "rankings": {
+    "chat": {
+      "top_users": [
+        {
+          "name": "Y",
+          "count": 22
+        },
+        {
+          "name": "随缘.🇨🇳",
+          "count": 14
+        },
+        {
+          "name": "华ge",
+          "count": 12
+        },
+        {
+          "name": "Assoberla",
+          "count": 11
+        },
+        {
+          "name": "好人难做",
+          "count": 11
+        },
+        {
+          "name": "开心每一天✌️",
+          "count": 10
+        }
+      ],
+      "top_at": [
+        {
+          "name": "Gᰔᩚao",
+          "count": 3
+        },
+        {
+          "name": "Assoberla",
+          "count": 3
+        },
+        {
+          "name": "摘星🍼",
+          "count": 2
+        },
+        {
+          "name": "过去了",
+          "count": 1
+        },
+        {
+          "name": "32596317452669",
+          "count": 1
+        },
+        {
+          "name": "Dancy🍋",
+          "count": 1
+        }
+      ]
+    },
+    "gift": {
+      "top_users": [
+        {
+          "name": "神秘人七阶",
+          "diamond": 60019,
+          "max_gift": "御龙·凌霄",
+          "max_gift_diamond": 60000
+        },
+        {
+          "name": "美羊羊🐟",
+          "diamond": 1200,
+          "max_gift": "跑车",
+          "max_gift_diamond": 1200
+        },
+        {
+          "name": "五一",
+          "diamond": 230,
+          "max_gift": "亲吻",
+          "max_gift_diamond": 99
+        },
+        {
+          "name": "深深",
+          "diamond": 101,
+          "max_gift": "Thuglife",
+          "max_gift_diamond": 99
+        },
+        {
+          "name": "R~",
+          "diamond": 101,
+          "max_gift": "爱的纸鹤",
+          "max_gift_diamond": 99
+        },
+        {
+          "name": "🐧四🐧",
+          "diamond": 99,
+          "max_gift": "星愿玫瑰",
+          "max_gift_diamond": 99
+        }
+      ],
+      "total_diamond": 62093
+    },
+    "like": {
+      "top_users": [
+        {
+          "name": "月之雪",
+          "count": 546
+        },
+        {
+          "name": "摘星🍼",
+          "count": 368
+        },
+        {
+          "name": "栖夏♡",
+          "count": 358
+        },
+        {
+          "name": "雾眠羊",
+          "count": 352
+        },
+        {
+          "name": "小张小张自有主张",
+          "count": 330
+        },
+        {
+          "name": "五一",
+          "count": 307
+        }
+      ],
+      "total_likes": 5732
+    }
+  },
+  "gift_diamond": 62093,
+  "total_pv": 118000
+}
