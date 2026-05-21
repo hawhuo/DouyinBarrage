@@ -1,0 +1,111 @@
+{
+  "live_id": "64067873353",
+  "sessions": [
+    {
+      "session_id": "20260521_1617_7642218181150460722",
+      "live_id": "64067873353",
+      "available_types": [
+        "chat",
+        "gift",
+        "like",
+        "stats"
+      ],
+      "stats": {
+        "chat": 24,
+        "gift": 29,
+        "like": 9,
+        "stats": 90
+      },
+      "total": 152,
+      "rankings": {
+        "chat": {
+          "top_users": [
+            {
+              "name": "龙腾鸣威 2023",
+              "count": 8
+            },
+            {
+              "name": "兴化人在甘肃",
+              "count": 7
+            },
+            {
+              "name": "宛若花开荼蘼",
+              "count": 5
+            },
+            {
+              "name": "yhv",
+              "count": 1
+            },
+            {
+              "name": "鼎",
+              "count": 1
+            },
+            {
+              "name": "…殷勤自与行人语…",
+              "count": 1
+            }
+          ]
+        },
+        "gift": {
+          "top_users": [
+            {
+              "name": "宛若花开荼蘼",
+              "diamond": 12433,
+              "max_gift": "抖音1号",
+              "max_gift_diamond": 10001
+            },
+            {
+              "name": "…殷勤自与行人语…",
+              "diamond": 1089,
+              "max_gift": "亲吻",
+              "max_gift_diamond": 1089
+            },
+            {
+              "name": "林昔",
+              "diamond": 4,
+              "max_gift": "5倍暴击卡",
+              "max_gift_diamond": 1
+            },
+            {
+              "name": "兴化人在甘肃",
+              "diamond": 2,
+              "max_gift": "小心心",
+              "max_gift_diamond": 1
+            },
+            {
+              "name": "鼎",
+              "diamond": 2,
+              "max_gift": "点亮粉丝团",
+              "max_gift_diamond": 1
+            },
+            {
+              "name": "天意",
+              "diamond": 2,
+              "max_gift": "小心心",
+              "max_gift_diamond": 1
+            }
+          ],
+          "total_diamond": 13532
+        },
+        "like": {
+          "top_users": [
+            {
+              "name": "兴化人在甘肃",
+              "count": 49
+            },
+            {
+              "name": "三岁-",
+              "count": 17
+            }
+          ],
+          "total_likes": 66
+        }
+      },
+      "gift_diamond": 13532,
+      "total_pv": 2631
+    }
+  ],
+  "anchor_name": "林昔",
+  "anchor_avatar": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_e47050e7b770c71d341918cac69ce0c8.jpeg?from=3067671334",
+  "room_title": "林昔正在直播"
+}
