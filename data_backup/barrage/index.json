@@ -1,18 +1,6 @@
 {
   "live_rooms": [
     {
-      "live_id": "64067873353",
-      "anchor_name": "林昔",
-      "session_count": 1,
-      "latest_session": "20260521_1617_7642218181150460722",
-      "total_stats": {
-        "chat": 24,
-        "gift": 29,
-        "like": 9,
-        "stats": 90
-      }
-    },
-    {
       "live_id": "866707045916",
       "anchor_name": "柚柚cc",
       "session_count": 1,
@@ -79,5 +67,5 @@
       "icon": "😀"
     }
   },
-  "generated_at": "2026-05-21 17:06:54"
+  "generated_at": "2026-05-21 15:45:16"
 }

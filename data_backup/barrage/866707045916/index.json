@@ -1,0 +1,133 @@
+{
+  "live_id": "866707045916",
+  "sessions": [
+    {
+      "session_id": "20260521_1539_7642191966567484179",
+      "live_id": "866707045916",
+      "available_types": [
+        "chat",
+        "gift",
+        "like",
+        "stats"
+      ],
+      "stats": {
+        "chat": 111,
+        "gift": 155,
+        "like": 156,
+        "stats": 46
+      },
+      "total": 468,
+      "rankings": {
+        "chat": {
+          "top_users": [
+            {
+              "name": "吃饱就睡",
+              "count": 9
+            },
+            {
+              "name": "Y",
+              "count": 9
+            },
+            {
+              "name": "言行必果",
+              "count": 6
+            },
+            {
+              "name": "孤狼",
+              "count": 6
+            },
+            {
+              "name": "Luoing",
+              "count": 5
+            },
+            {
+              "name": "浅浅",
+              "count": 5
+            }
+          ],
+          "top_at": [
+            {
+              "name": "Gᰔᩚao",
+              "count": 1
+            }
+          ]
+        },
+        "gift": {
+          "top_users": [
+            {
+              "name": "白泽💦",
+              "diamond": 3000,
+              "max_gift": "私人飞机",
+              "max_gift_diamond": 3000
+            },
+            {
+              "name": "神秘人七阶",
+              "diamond": 1888,
+              "max_gift": "倾心于你",
+              "max_gift_diamond": 1888
+            },
+            {
+              "name": "峰峰",
+              "diamond": 1306,
+              "max_gift": "PK宝箱",
+              "max_gift_diamond": 1200
+            },
+            {
+              "name": "枕山听风",
+              "diamond": 1299,
+              "max_gift": "跑车",
+              "max_gift_diamond": 1200
+            },
+            {
+              "name": "海阔山遥",
+              "diamond": 1299,
+              "max_gift": "PK宝箱",
+              "max_gift_diamond": 1200
+            },
+            {
+              "name": "菊儿",
+              "diamond": 1219,
+              "max_gift": "跑车",
+              "max_gift_diamond": 1200
+            }
+          ],
+          "total_diamond": 17656
+        },
+        "like": {
+          "top_users": [
+            {
+              "name": "好人一身平安",
+              "count": 205
+            },
+            {
+              "name": "雾眠羊",
+              "count": 188
+            },
+            {
+              "name": "Z✨",
+              "count": 183
+            },
+            {
+              "name": "围着你 ～打转👣",
+              "count": 163
+            },
+            {
+              "name": "摘星🍼",
+              "count": 146
+            },
+            {
+              "name": "可凡",
+              "count": 104
+            }
+          ],
+          "total_likes": 1289
+        }
+      },
+      "gift_diamond": 17656,
+      "total_pv": 144000
+    }
+  ],
+  "anchor_name": "柚柚cc",
+  "anchor_avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_10d224c7f4a242a0b4467ab480dd59b2.jpeg?from=3067671334",
+  "room_title": "柚柚嘻嘻"
+}
