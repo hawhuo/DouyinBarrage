@@ -125,6 +125,153 @@
       },
       "gift_diamond": 17656,
       "total_pv": 144000
+    },
+    {
+      "session_id": "20260522_1247_7642562278860294975",
+      "live_id": "866707045916",
+      "available_types": [
+        "chat",
+        "gift",
+        "like",
+        "social",
+        "stats"
+      ],
+      "stats": {
+        "chat": 235,
+        "gift": 115,
+        "like": 462,
+        "social": 12,
+        "stats": 99
+      },
+      "total": 923,
+      "rankings": {
+        "chat": {
+          "top_users": [
+            {
+              "name": "Y",
+              "count": 9
+            },
+            {
+              "name": "6677",
+              "count": 8
+            },
+            {
+              "name": "玖玖",
+              "count": 6
+            },
+            {
+              "name": "摘星🍼",
+              "count": 5
+            },
+            {
+              "name": "月色明亮",
+              "count": 5
+            },
+            {
+              "name": "雪儿❄️",
+              "count": 5
+            }
+          ],
+          "top_at": [
+            {
+              "name": "摘星🍼",
+              "count": 2
+            },
+            {
+              "name": "哎呦喂",
+              "count": 1
+            },
+            {
+              "name": "囬㣻",
+              "count": 1
+            },
+            {
+              "name": "反正大吉大栗",
+              "count": 1
+            },
+            {
+              "name": "蓝波万",
+              "count": 1
+            },
+            {
+              "name": "🐟魚小雨",
+              "count": 1
+            }
+          ]
+        },
+        "gift": {
+          "top_users": [
+            {
+              "name": "清风猪来",
+              "diamond": 30,
+              "max_gift": "加油鸭",
+              "max_gift_diamond": 15
+            },
+            {
+              "name": "潮流亲王",
+              "diamond": 22,
+              "max_gift": "鲜花",
+              "max_gift_diamond": 10
+            },
+            {
+              "name": "木兰の少女心",
+              "diamond": 18,
+              "max_gift": "为你闪耀",
+              "max_gift_diamond": 9
+            },
+            {
+              "name": "淡水鲳",
+              "diamond": 18,
+              "max_gift": "点亮粉丝团",
+              "max_gift_diamond": 9
+            },
+            {
+              "name": "就是这脾气",
+              "diamond": 4,
+              "max_gift": "点亮粉丝团",
+              "max_gift_diamond": 1
+            },
+            {
+              "name": "米酒儿",
+              "diamond": 4,
+              "max_gift": "你最好看",
+              "max_gift_diamond": 2
+            }
+          ],
+          "total_diamond": 196
+        },
+        "like": {
+          "top_users": [
+            {
+              "name": "玖玖",
+              "count": 623
+            },
+            {
+              "name": "雾眠羊",
+              "count": 597
+            },
+            {
+              "name": "小张小张自有主张",
+              "count": 281
+            },
+            {
+              "name": "栖夏♡",
+              "count": 254
+            },
+            {
+              "name": "☾⋆᭄ 孤꯭独꯭成꯭瘾",
+              "count": 247
+            },
+            {
+              "name": "万壑松风",
+              "count": 151
+            }
+          ],
+          "total_likes": 3822
+        }
+      },
+      "gift_diamond": 196,
+      "total_pv": 65000
     }
   ],
   "anchor_name": "柚柚cc",
